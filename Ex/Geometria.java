@@ -16,7 +16,7 @@ public class Geometria {
 			formas.add(new Quadrado(5));
 			formas.add(new Retangulo(10,5));
 			formas.add(new Trapezio());
-			formas.add(new Triangulo());
+			formas.add(new Triangulo(10,5));
 	}
 	for(Geometria emp:formas){
 		System.out.println(emp.getArea());
