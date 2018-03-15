@@ -24,7 +24,6 @@ public class PaisTest {
 	@Test
 	public void test00Carregar() {
 		System.out.println("carregar");
-		//para funcionar o cliente 1 deve ter sido carregado no banco por fora
 		Pais fixture = new Pais(1, "Brasil", 207700000, 8516000 );
 		Pais novo = new Pais(1, null, 0, 0);
 		novo.carregar();
